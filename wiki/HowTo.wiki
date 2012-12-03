@@ -1,0 +1,44 @@
+#labels Phase-Requirements
+#Describe how to use this app.
+ 
+= Windows =
+
+Download windows version tarballs and extract, doubleclick startBaiduMusicBox.exe to 
+
+start.
+
+下载相应的压缩包，解压，双击startBaiduMusicBox.exe即可.
+
+
+= Linux =
+
+== Requirements ==
+
+需要安装的支持库：
+
+python2
+
+python2-qt(具体名字根据发行版不同可能有出入)
+
+phonon
+
+音频库：
+
+可以使用的backend有：gstreamer,xine,vlc，推荐vlc(gstreamer不知何故不能发声，xine在
+
+连续切换曲目的时候，经常会失效，表现为隔一可以正常播放，可能是xine的空隙太长）。
+
+== 运行方法 ==
+
+下载相应的taball,解压缩，进入解压目录：
+
+python startBaiduMusicBox.py
+
+即可。
+
+Add your content here.  Format your content with:
+  * *Windows*
+  * *Linux*
+    *  *Requirements*
+    *  *运行方法*
+  
