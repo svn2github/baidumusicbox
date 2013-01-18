@@ -1,13 +1,17 @@
 #labels Phase-Requirements
 #Describe how to use this app.
- 
+
+== Hint 提示 ==
+For more infomation,please refer to readme.txt.
+请阅读readme.txt以获取更多信息。
+
 = Windows =
 
-Download windows version tarballs and extract, doubleclick startBaiduMusicBox.exe to 
+Download windows version tarballs and extract, doubleclick main.exe to 
 
 start.
 
-下载相应的压缩包，解压，双击startBaiduMusicBox.exe即可.
+下载相应的压缩包，解压，双击main.exe即可.
 
 
 = Linux =
@@ -22,17 +26,24 @@ python2-qt(具体名字根据发行版不同可能有出入)
 
 phonon
 
+ubuntu用户请运行：
+
+sudo apt-get install python-qt4 python-qt4-phonon
+
 音频库：
 
-可以使用的backend有：gstreamer,xine,vlc，推荐vlc(gstreamer不知何故不能发声，xine在
-
-连续切换曲目的时候，经常会失效，表现为隔一可以正常播放，可能是xine的空隙太长）。
+可以使用的backend有：gstreamer,xine,vlc。
+在ubuntu中，默认为gstreamer，表现良好，无需手工配置。
 
 == 运行方法 ==
 
-下载相应的taball,解压缩，进入解压目录：
+下载相应的taball,解压缩:
 
-python startBaiduMusicBox.py
+tar xvf SimpleMusicBox-x.y.z.tar.gz
+
+进入解压目录,运行程序：
+
+python main.py
 
 即可。
 
