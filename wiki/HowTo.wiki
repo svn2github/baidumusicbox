@@ -33,13 +33,14 @@ sudo apt-get install python-qt4 python-qt4-phonon
 音频库：
 
 可以使用的backend有：gstreamer,xine,vlc。
+
 在ubuntu中，默认为gstreamer，表现良好，无需手工配置。
 
 == 运行方法 ==
 
 下载相应的taball,解压缩:
 
-tar xvf SimpleMusicBox-x.y.z.tar.gz
+tar xvf SimpleMusicBox-0.1.8-modified_linux.tar.gz
 
 进入解压目录,运行程序：
 
